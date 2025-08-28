@@ -38,6 +38,23 @@ const Main = () => {
           <div className="theme light"></div>
         </div>
       </header>
+
+      <div className='welcome-block'>
+        <div className='first-block'>
+          <h1>Java developer<span className='title-name'>KeyToHurrycane</span>
+            </h1>
+          <h2 style={{ marginBottom: "7%", marginTop: "7%" }}>
+            I create and launch <span style={{ color: "#4824ff"}}>turnkey</span>
+            <span style={{marginLeft: "10px"}}>websites that include your</span>
+            <span style={{marginLeft: "10px", color: "#4824ff"}}>needs and desires</span>
+            </h2>
+          <h3>I have been involved in IT development for 1.5 years<span style={{marginLeft: "10px"}}>
+            and have worked in a company and also do freelance projects.</span></h3>
+        </div>
+        <div className='foto-me'>
+          <img src="/icons/me.png" draggable="false"/>
+      </div>
+      </div>
     </div>
   );
 }

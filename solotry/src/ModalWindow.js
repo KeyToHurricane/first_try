@@ -34,10 +34,14 @@ const ModalWindow = ({show, onClose, children}) => {
                 <button onClick={onClose} className="modal-close-button" aria-label="Close modal"></button>
                 {children}
                 <div style={{display: "flex"}}>
-                    <a href="https://t.me/+cMXstvUN1Yg5MmQ6" target="_blank" className="social_button">
-                    <a className="social telegram"/>Telegram</a>
-                    <a href="https://www.instagram.com/kostya_zagoruyko?igsh=MWV6N3J4YjdtM3N0Yg%3D%3D&utm_source=qr" target="_blank" className="social_button">
-                    <a className='social instagram'/>Instagram</a>
+                    <a href="https://t.me/+cMXstvUN1Yg5MmQ6" target="_blank" rel="noreferrer" className="social-button">
+                        <img src="/icons/telegram.png" alt="Telegram" className="social-icon" />
+                        <span>Telegram</span>
+                    </a>
+                    <a href="https://www.instagram.com/kostya_zagoruyko?igsh=MWV6N3J4YjdtM3N0Yg%3D%3D&utm_source=qr" target="_blank" rel="noreferrer" className="social-button">
+                        <img src="/icons/instagram.png" alt="Instagram" className="social-icon"/>
+                        <span>Instagram</span>
+                    </a>
                 </div>
             </div>
         </div>
